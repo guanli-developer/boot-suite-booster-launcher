@@ -1,0 +1,12 @@
+tech:
+  guanli:
+    boot:
+      booster-launch:
+        project-output-path: booster-launch
+        root-package: tech.guanli.booster_launch
+        schema: booster_launch
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/information_schema
+    username: root
+    password: 123456
