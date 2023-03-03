@@ -33,7 +33,7 @@ public class DefaultBoosterLauncher implements BoosterLauncher, InitializingBean
 	@Override
 	public void afterPropertiesSet() throws Exception {
 		projectCreator.create();
-//		pomCreator.create();
+		pomCreator.create();
 		applicationCreator.create();
 		coreCreator.create();
 		businessCreator.create();

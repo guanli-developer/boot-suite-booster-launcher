@@ -34,6 +34,8 @@ public class PomCreator extends BasicCreator {
 			}
 			dependencies.add(new Dependency("org.springframework.boot", "spring-boot-starter-web"));
 			dependencies.add(new Dependency("tech.guanli.boot.suite", "internal-model"));
+			dependencies.add(new Dependency("tech.guanli.boot.suite", "validate-spring-boot-starter"));
+
 			template.process(pom, fileWriter);
 		} catch (IOException | TemplateException e) {
 			e.printStackTrace();
